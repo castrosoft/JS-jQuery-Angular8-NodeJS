@@ -1,3 +1,5 @@
+'use strict'
+
 var pais = 'Argentina';
 var continente = 'America';
 var antiguedad = 2019;
