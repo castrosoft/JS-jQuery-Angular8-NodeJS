@@ -20,9 +20,21 @@ function sum(number1, number2, sumYShow, sumByTwo){
 }
 
 //call function with 4 parameters
+/*
 sum(5, 7, function(data){
     console.log("The sum is: ", data);
 },
 function(data){
+    console.log("The sum by two is: ", (data * 2));
+});
+*/
+
+//Now, I repeat but using arrow pointer (=>)
+//replace function by =>
+
+sum(5, 7, (data) => {
+    console.log("The sum is: ", data);
+},
+(data) => {
     console.log("The sum by two is: ", (data * 2));
 });
