@@ -1,21 +1,20 @@
 'useestrict'
 
-// Texts transform
-var number = 10;
-var text1 = "Welcome to Mina Clavero Mina";
-var text2 =  " a great city";
+// Texts template
 
-var word = text1.replace("Mina Clavero", "Cura Brochero");
-console.log(word);
-var word = text1.slice(9);
-//var word = text1.slice(9,15);
-console.log(word);
-var word = text1.split(); //to put in array
-console.log(word);
-var word = text1.split(" "); 
-console.log(word);
-var word = text1.trim(); 
-console.log(word);
+var name = prompt("NAME");
+var surname = prompt("SURNAME");
+
+//var output = "I'm " + name + ", " + surname;
+//document.write(output);
+
+var template = `
+        <h1> Hi there <h1/>
+        <h3> Mi name is: ${name} <h3/>
+        <h3> Mi surname is: ${surname} <h3/>
+`;
+
+document.write(template);
 
 
 
