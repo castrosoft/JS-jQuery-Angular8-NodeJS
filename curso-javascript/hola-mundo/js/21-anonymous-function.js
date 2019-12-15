@@ -38,3 +38,5 @@ sum(5, 7, (data) => {
 (data) => {
     console.log("The sum by two is: ", (data * 2));
 });
+
+//global and local variables. toString()
